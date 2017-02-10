@@ -10,13 +10,15 @@ V -> 'shot'
 P -> 'in'
 """)
 # target sentence
-sent = "I shot an elephant in my pajamas";
+sent = "I shot an elephant in my pajamas"
 tokens = nltk.word_tokenize(sent)
 # tag tokens
 tagged = nltk.pos_tag(tokens)
 print tagged
 # supposed result ['I', 'shot', 'an', 'elephant', 'in', 'my', 'pajamas']
 parser = nltk.ChartParser(groucho_grammar)
+
+
 count = 0
 for tree in parser.parse(tokens):
 	print count

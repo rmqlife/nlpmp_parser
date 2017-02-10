@@ -1,6 +1,6 @@
 ##Dependency:
-nltk
-stanford parser
+nltk and nltk data: http://www.nltk.org/install.html
+stanford parser: http://nlp.stanford.edu/software/stanford-parser-full-2016-10-31.zip
 
 ##To run the code:
 modify the test_stanford_parser.py
